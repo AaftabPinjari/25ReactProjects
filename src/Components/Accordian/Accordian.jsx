@@ -36,7 +36,7 @@ function Accordian() {
     return (
         <>
             {/*Container */}
-            <div className='h-[100vh] w-[100vw]  bg-white flex flex-col items-center justify-evenly py-4'>
+            <div className='h-[100vh] w-[100vw]  bg-slate-200 flex flex-col items-center justify-evenly py-4'>
                 <h1 className='text-3xl'>Accordian</h1>
                 <div className='w-3/2'>
                     {/*Question */}
@@ -47,7 +47,10 @@ function Accordian() {
                             {/*title */}
                             <div className='flex px-2 py-1 border-b-black border-b-2 items-center justify-between cursor-pointer bg-blue-300'>
                                 <h3 className=''>{item.question}</h3>
-                                {selected && selected === item.id ? <span className='text-2xl'>-</span> : <span className='text-2xl'>+</span>}
+                                {
+                                    enableMultiSelection ? multiple.indexOf(item.id) == -1 &&
+                                        <span className='text-2xl'>+</span> : <span className='text-2xl'>-</span> &&
+                                            selected && selected === item.id ? <span className='text-2xl'>-</span> : <span className='text-2xl'>+</span>}
                             </div>
                             {
                                 enableMultiSelection ? multiple.indexOf(item.id) !== -1 &&

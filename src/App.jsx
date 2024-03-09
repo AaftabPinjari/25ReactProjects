@@ -1,4 +1,4 @@
-import { Accordian, RandomColorGenerator, StarRating } from "./Components"
+import { Accordian, LoadMore, NestedMenu, RandomColorGenerator, StarRating } from "./Components"
 
 
 function App() {
@@ -6,9 +6,14 @@ function App() {
 
   return (
     <>
-      {/*<Accordian />*/}
-      {/*<RandomColorGenerator />*/}
-      <StarRating noOfStars={10} />
+      {/*
+      
+      <NestedMenu />
+    */}
+      <Accordian />
+      <RandomColorGenerator />
+      <StarRating noOfStars={5} />
+      <LoadMore />
     </>
   )
 }
