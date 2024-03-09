@@ -1,4 +1,4 @@
-import { Accordian } from "./Components"
+import { Accordian, RandomColorGenerator } from "./Components"
 
 
 function App() {
@@ -7,6 +7,7 @@ function App() {
   return (
     <>
       <Accordian />
+      <RandomColorGenerator />
     </>
   )
 }
