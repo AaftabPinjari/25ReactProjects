@@ -63,8 +63,8 @@ const projects = [
     },
     {
         id: 9,
-        name: "Tic Tac Toe",
-        url: ""
+        name: "Currency Exchange",
+        url: "currency-exchange"
     },
     {
         id: 10,
