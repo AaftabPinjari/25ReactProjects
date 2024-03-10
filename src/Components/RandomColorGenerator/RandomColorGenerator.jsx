@@ -33,7 +33,7 @@ function RandomColorGenerator() {
 
     return (
         <>
-            <div className="h-screen w-full pt-4" style={{ backgroundColor: color }}>
+            <div className="h-screen w-full p-4" style={{ backgroundColor: color }}>
                 <div className="flex gap-4 items-center justify-center">
                     <button
                         onClick={() => { handleHexColor() }}

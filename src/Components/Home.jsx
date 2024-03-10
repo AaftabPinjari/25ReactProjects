@@ -10,7 +10,7 @@ function Home() {
                 {/*Project card */}
                 {
                     projects.map((project) => (
-                        <Link to={project.url} key={project.id} className="h-20 bg-slate-200 p-2 text-center flex items-center justify-center border-2 border-black rounded shadow-lg">{project.name}</Link>
+                        <Link to={project.url} key={project.id} className="h-20 bg-slate-200 p-2 font-semibold text-center flex items-center justify-center border-2 border-black rounded shadow-lg">{project.name}</Link>
                     ))
                 }
             </div>
@@ -58,8 +58,8 @@ const projects = [
     },
     {
         id: 8,
-        name: "Light Dark Toggle",
-        url: ""
+        name: "Password Generator",
+        url: "/password-generator"
     },
     {
         id: 9,

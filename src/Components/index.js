@@ -6,9 +6,13 @@ import NestedMenu from "./NestedMenu/NestedMenu.jsx";
 import Home from "./Home.jsx";
 import Header from "./Header.jsx";
 import QRCodeGenerator from "./QRCodeGenerator/QRCodeGenerator.jsx";
+import PasswordGenerator from "./PasswordGenerator/PasswordGenerator.jsx";
 
 
 
 
 
-export { Home, Header, Accordian, RandomColorGenerator, StarRating, LoadMore, NestedMenu, QRCodeGenerator }
+export {
+    Home, Header, Accordian, RandomColorGenerator, StarRating,
+    LoadMore, NestedMenu, QRCodeGenerator, PasswordGenerator
+}
