@@ -4,7 +4,7 @@ import QRCode from "react-qr-code"
 
 function QRCodeGenerator() {
     const [input, setInput] = useState("")
-    const [qrCode, setQrCode] = useState("")
+    const [qrCode, setQrCode] = useState("Aaftab Pinjari")
 
     function handleGenrate() {
         setQrCode(input);
@@ -28,7 +28,7 @@ function QRCodeGenerator() {
             >Generate</button>
             <QRCode
                 id="qr-code"
-                value={qrCode} size={400} />
+                value={qrCode} size={200} />
         </div>
     )
 }

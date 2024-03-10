@@ -70,7 +70,7 @@ function LoadMore() {
                 Load more Products
             </button>
             {disabledButton && <div
-                className="text-lg font-semibold text-red-600"
+                className="text-lg font-semibold text-red-600 text-center"
             >You have Reached the Limit of 100 Products</div>}
         </div>
     )
