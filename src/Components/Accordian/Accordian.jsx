@@ -36,7 +36,7 @@ function Accordian() {
     return (
         <>
             {/*Container */}
-            <div className='h-[100vh] w-[100vw]  bg-slate-200 flex flex-col items-center justify-evenly py-4'>
+            <div className='h-screen w-full bg-slate-200 flex flex-col items-center justify-evenly py-4'>
                 <h1 className='text-3xl'>Accordian</h1>
                 <div className='w-3/2'>
                     {/*Question */}

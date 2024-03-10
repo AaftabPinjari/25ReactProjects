@@ -1,4 +1,5 @@
-import { Accordian, LoadMore, NestedMenu, RandomColorGenerator, StarRating } from "./Components"
+import { Outlet } from "react-router-dom"
+import { Header } from "./Components"
 
 
 function App() {
@@ -6,14 +7,8 @@ function App() {
 
   return (
     <>
-      {/*
-      
-      <NestedMenu />
-    */}
-      <Accordian />
-      <RandomColorGenerator />
-      <StarRating noOfStars={5} />
-      <LoadMore />
+      <Header />
+      <Outlet />
     </>
   )
 }

@@ -3,9 +3,11 @@ import RandomColorGenerator from "./RandomColorGenerator/RandomColorGenerator.js
 import StarRating from "./StarRating/StarRating.jsx";
 import LoadMore from "./LoadMore/LoadMore.jsx";
 import NestedMenu from "./NestedMenu/NestedMenu.jsx";
+import Home from "./Home.jsx";
+import Header from "./Header.jsx";
 
 
 
 
 
-export { Accordian, RandomColorGenerator, StarRating, LoadMore, NestedMenu }
+export { Header, Accordian, RandomColorGenerator, StarRating, LoadMore, NestedMenu, Home }
