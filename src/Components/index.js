@@ -5,9 +5,10 @@ import LoadMore from "./LoadMore/LoadMore.jsx";
 import NestedMenu from "./NestedMenu/NestedMenu.jsx";
 import Home from "./Home.jsx";
 import Header from "./Header.jsx";
+import QRCodeGenerator from "./QRCodeGenerator/QRCodeGenerator.jsx";
 
 
 
 
 
-export { Header, Accordian, RandomColorGenerator, StarRating, LoadMore, NestedMenu, Home }
+export { Home, Header, Accordian, RandomColorGenerator, StarRating, LoadMore, NestedMenu, QRCodeGenerator }

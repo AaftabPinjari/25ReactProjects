@@ -21,7 +21,7 @@ function StarRating({ noOfStars = 5 }) {
 
 
     return (
-        <div className="h-screen w-full flex flex-col gap-10 p-3 justify-center items-center bg-blue-100">
+        <div className="h-screen flex flex-col gap-8 p-3 justify-center items-center bg-slate-300">
             <div className='text-2xl font-semibold'>How are you Liking my Projects?</div>
             <div className='flex flex-wrap'>
                 {[...Array(noOfStars)].map((_, idx) => {

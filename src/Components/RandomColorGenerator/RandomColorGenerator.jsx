@@ -4,7 +4,7 @@ import { useState } from "react"
 function RandomColorGenerator() {
 
     const [typeOfColor, setTypeOfColor] = useState('hex')
-    const [color, setColor] = useState("#ffffff")
+    const [color, setColor] = useState("#cbd5e1")
 
     function colorGeneratorUtility(length) {
         return Math.floor(Math.random() * length)

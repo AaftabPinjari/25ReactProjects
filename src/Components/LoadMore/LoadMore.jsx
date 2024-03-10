@@ -44,10 +44,10 @@ function LoadMore() {
     }
 
     return (
-        <div className="h-full w-full p-3 bg-gray-300 flex flex-col items-center gap-3">
+        <div className="h-full w-full p-3 bg-slate-300 flex flex-col items-center gap-3">
             <h1 className="text-xl font-bold ">Products</h1>
             {/**products container */}
-            <div className="border-black rounded-lg border-2 grid grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2 p-3">
+            <div className="border-black rounded-lg border-2 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-2 p-3">
                 {
                     products.map((product) => (
                         <div

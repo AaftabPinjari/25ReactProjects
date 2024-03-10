@@ -36,7 +36,7 @@ function Accordian() {
     return (
         <>
             {/*Container */}
-            <div className='h-screen w-full bg-slate-200 flex flex-col items-center justify-evenly py-4'>
+            <div className='h-screen w-full bg-slate-300 flex flex-col items-center justify-evenly py-4'>
                 <h1 className='text-3xl'>Accordian</h1>
                 <div className='w-3/2'>
                     {/*Question */}
@@ -45,7 +45,7 @@ function Accordian() {
                             onClick={enableMultiSelection ? () => handleMultipleSelection(item.id) : () => handleSingleSelection(item.id)}
                             key={item.id}>
                             {/*title */}
-                            <div className='flex px-2 py-1 border-b-black border-b-2 items-center justify-between cursor-pointer bg-blue-300'>
+                            <div className='flex px-2 py-1 border-b-black border-b-2 items-center justify-between cursor-pointer bg-gray-200'>
                                 <h3 className=''>{item.question}</h3>
                                 {
                                     enableMultiSelection ? multiple.indexOf(item.id) == -1 &&
@@ -54,9 +54,9 @@ function Accordian() {
                             </div>
                             {
                                 enableMultiSelection ? multiple.indexOf(item.id) !== -1 &&
-                                    (<div className='h-auto italic w-auto px-2 py-1  bg-blue-300'>{item.answer}</div>)
+                                    (<div className='h-auto italic w-auto px-2 py-1  bg-gray-200'>{item.answer}</div>)
                                     : selected === item.id &&
-                                    (<div className='h-auto italic w-auto px-2 py-1  bg-blue-300'>{item.answer}</div>)
+                                    (<div className='h-auto italic w-auto px-2 py-1  bg-gray-200'>{item.answer}</div>)
                             }
                             {/*{
                             selected && selected === item.id ?

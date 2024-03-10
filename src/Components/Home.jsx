@@ -3,10 +3,10 @@ import { Link } from "react-router-dom"
 
 function Home() {
     return (
-        <div className="h-full flex flex-col items-center justify-evenly gap-4 py-5">
+        <div className="h-full lg:h-screen bg-slate-300 flex flex-col items-center justify-evenly lg:justify-start gap-4 py-5">
             <h1 className="text-3xl font-bold">25 React Projects</h1>
             {/*Projects container */}
-            <div className="border-2 border-black gap-2  grid grid-cols-2 lg:grid-cols-5 p-3">
+            <div className=" border-2 border-black gap-2  grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 xl:grid-cols-5 p-3">
                 {/*Project card */}
                 {
                     projects.map((project) => (
@@ -53,8 +53,8 @@ const projects = [
     },
     {
         id: 7,
-        name: "Scroll progress",
-        url: ""
+        name: "QR Code Generator",
+        url: "qr-code-generator"
     },
     {
         id: 8,

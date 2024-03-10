@@ -7,6 +7,7 @@ function App() {
 
   return (
     <>
+      {/*layout component outlet allows */}
       <Header />
       <Outlet />
     </>
