@@ -8,6 +8,7 @@ import Header from "./Header.jsx";
 import QRCodeGenerator from "./QRCodeGenerator/QRCodeGenerator.jsx";
 import PasswordGenerator from "./PasswordGenerator/PasswordGenerator.jsx";
 import CurrencyExchange from "./CurrencyExchange/CurrencyExchange.jsx";
+import ToggleTheme from "./ToggleTheme/ToggleTheme.jsx";
 
 
 
@@ -15,5 +16,5 @@ import CurrencyExchange from "./CurrencyExchange/CurrencyExchange.jsx";
 export {
     Home, Header, Accordian, RandomColorGenerator, StarRating,
     LoadMore, NestedMenu, QRCodeGenerator, PasswordGenerator,
-    CurrencyExchange
+    CurrencyExchange, ToggleTheme
 }

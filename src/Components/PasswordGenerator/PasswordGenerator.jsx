@@ -9,6 +9,8 @@ function PasswordGenerator() {
     const [charsAllowed, setCharsAllowed] = useState(false);
     const [password, setPassword] = useState('');
 
+    //useEffect , useCallBack and useRef hook in one project
+
     const passwordReference = useRef(null)
 
     const generatePassword = useCallback(() => {

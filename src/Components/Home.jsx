@@ -71,8 +71,8 @@ const projects = [
     },
     {
         id: 10,
-        name: "Scroll Indicator",
-        url: ""
+        name: "Toggle Theme",
+        url: "toggle-theme"
     },
     {
         id: 11,
@@ -106,7 +106,7 @@ const projects = [
     },
     {
         id: 17,
-        name: "Modal Popup",
+        name: "Scroll Indicator",
         url: ""
     },
     {
