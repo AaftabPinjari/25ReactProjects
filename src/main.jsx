@@ -3,7 +3,11 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom'
-import { Accordian, CurrencyExchange, Home, LoadMore, NestedMenu, PasswordGenerator, QRCodeGenerator, RandomColorGenerator, StarRating } from './Components/index.js'
+import {
+  Accordian, CurrencyExchange, Home,
+  LoadMore, NestedMenu, PasswordGenerator,
+  QRCodeGenerator, RandomColorGenerator, StarRating
+} from './Components/index.js'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,7 +21,6 @@ const router = createBrowserRouter(
       <Route path="load-more" element={<LoadMore />} />
       <Route path="nested-menu" element={<NestedMenu />} />
       <Route path="currency-exchange" element={<CurrencyExchange />} />
-
     </Route>
   )
 )

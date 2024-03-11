@@ -81,7 +81,7 @@ function PasswordGenerator() {
                                 value={numsAllowed}
                                 onChange={() => setNumsAllowed((prev) => !prev)}
                             />
-                            <div className="font-semibold">Numbers</div>
+                            <div className="font-semibold">Include Numbers</div>
                         </div>
                         <div className="flex gap-2 ">
                             <input
@@ -89,7 +89,7 @@ function PasswordGenerator() {
                                 value={charsAllowed}
                                 onChange={() => setCharsAllowed((prev) => !prev)}
                             />
-                            <div className="font-semibold">Characters</div>
+                            <div className="font-semibold">Include Characters</div>
                         </div>
 
 

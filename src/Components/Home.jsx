@@ -4,13 +4,16 @@ import { Link } from "react-router-dom"
 function Home() {
     return (
         <div className="h-full lg:h-screen bg-slate-300 flex flex-col items-center justify-evenly lg:justify-start gap-4 py-5">
-            <h1 className="text-3xl font-bold">25 React Projects</h1>
+            <h1 className="text-3xl font-bold">20 React Projects</h1>
             {/*Projects container */}
-            <div className=" border-2 border-black gap-2  grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 xl:grid-cols-5 p-3">
+            <div className=" gap-2  grid grid-cols-2 md:grid-cols-3  lg:grid-cols-4 xl:grid-cols-5 p-3">
                 {/*Project card */}
                 {
                     projects.map((project) => (
-                        <Link to={project.url} key={project.id} className="h-20 bg-slate-200 p-2 font-semibold text-center flex items-center justify-center border-2 border-black rounded shadow-lg">{project.name}</Link>
+                        <Link
+                            to={project.url}
+                            key={project.id}
+                            className="h-20 bg-slate-100 hover:bg-slate-400 p-2 font-semibold text-center flex items-center justify-center border-2 border-black rounded shadow-lg">{project.name}</Link>
                     ))
                 }
             </div>
@@ -68,12 +71,12 @@ const projects = [
     },
     {
         id: 10,
-        name: "Tabs",
+        name: "Scroll Indicator",
         url: ""
     },
     {
         id: 11,
-        name: "Github Profile finder",
+        name: "Github Profile Finder",
         url: ""
     },
     {
@@ -83,11 +86,41 @@ const projects = [
     },
     {
         id: 13,
-        name: "Scroll to top and Bottom",
+        name: "Scroll To Top And Bottom",
         url: ""
     },
     {
         id: 14,
+        name: "Tabs",
+        url: ""
+    },
+    {
+        id: 15,
+        name: "Modal Popup",
+        url: ""
+    },
+    {
+        id: 16,
+        name: "Tic Tac Toe",
+        url: ""
+    },
+    {
+        id: 17,
+        name: "Modal Popup",
+        url: ""
+    },
+    {
+        id: 18,
+        name: "Modal Popup",
+        url: ""
+    },
+    {
+        id: 19,
+        name: "Modal Popup",
+        url: ""
+    },
+    {
+        id: 20,
         name: "Modal Popup",
         url: ""
     },
