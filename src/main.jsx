@@ -6,8 +6,8 @@ import { Route, RouterProvider, createBrowserRouter, createRoutesFromElements } 
 import {
   Accordian, CurrencyExchange, Home,
   LoadMore, NestedMenu, PasswordGenerator,
-  QRCodeGenerator, RandomColorGenerator, StarRating, ToggleTheme
-} from './Components/index.js'
+  QRCodeGenerator, RandomColorGenerator, StarRating, TodoApp, ToggleTheme
+} from './Projects/index.js'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -22,6 +22,7 @@ const router = createBrowserRouter(
       <Route path="nested-menu" element={<NestedMenu />} />
       <Route path="toggle-theme" element={<ToggleTheme />} />
       <Route path="currency-exchange" element={<CurrencyExchange />} />
+      <Route path="todo-app" element={<TodoApp />} />
     </Route>
   )
 )
