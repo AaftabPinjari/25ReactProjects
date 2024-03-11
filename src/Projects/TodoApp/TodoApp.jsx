@@ -3,7 +3,7 @@ import { TodoProvider } from "./contexts"
 import TodoForm from "./components/TodoForm"
 import TodoItem from "./components/TodoItem";
 
-//todo app with context Api and local storage
+//todo app with context Api and local storage`
 
 function TodoApp() {
     const [todos, setTodos] = useState([]);
